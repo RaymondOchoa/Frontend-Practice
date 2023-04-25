@@ -6,7 +6,7 @@ const Header = () => {
     <div className=''>
       <div className='mx-auto bg-white w-4/5 flex flex-row justify-between p-5 border border-bottom'>
         <div>
-          <ul className='flex flex-row space-x-10 font-bold'>
+          <ul className='flex flex-row space-x-10 font-semibold'>
             <img src={menuicon} className='cursor-pointer'/>
             <li className='cursor-pointer'>Live</li>
             <li className='cursor-pointer'>Push</li>
@@ -20,7 +20,7 @@ const Header = () => {
 
         <div>
           <ul className='flex flex-row space-x-5'>
-            <li className='text-[#0000ff] font-bold cursor-pointer'>Try Live For Free</li>
+            <li className='text-[#0000ff] font-semibold cursor-pointer'>Try Live For Free</li>
             <li className='cursor-pointer'>Account</li>
             <li className='cursor-pointer'>Log Out</li>
           </ul>
